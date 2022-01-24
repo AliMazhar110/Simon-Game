@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+}
+.epic{
+    display: none;
+}
+.container{
+    background-color: #000000;
+    padding-top: 20px;
+}
+h1{
+    display: inline-block;
+    width: 97%;
+    color: #F0A500;
+    text-align: center;
+    font-size: 4.5rem;
+    margin: 0px;
+    font-family: 'VT323', monospace;
+}
+a{
+    float: right;
+    color: #3E065F;
+    margin-right: 5px;
+}
+.hide-icon{
+    display: none;
+}
+.fa-volume-mute{
+    font-size: 30px;
+}
+.fa-volume-up{
+    font-size: 0px;
+}
+.row{
+    text-align: center;
+}
+button{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: none;
+    margin: 15px;
+}
+.red{
+    background-color: #FF1700;
+    margin-top: 40px;
+}
+.green{
+     background-color: #06FF00;
+     margin-top: 40px;
+}
+.blue{
+    background-color: #0F00FF;
+    margin-bottom: 60px;
+}
+.yellow{
+    background-color: #FFE400;
+    margin-bottom: 60px;
+}
+.highlighter{
+    border: 5px solid white !important;
+    margin-bottom: -5px !important;    
+}
+button:hover{
+    border: 5px solid white;
+    margin-bottom: -5px;
+}
+footer{
+    color: #F0A500;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #3E065F;
+    padding: 35px 0px;
+}
+footer h5{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
