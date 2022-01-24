@@ -57,7 +57,7 @@ function tracker(){
         if(count==gamePattern.length-1){
             count=0;
             userPattern=[];
-            setTimeout(nextSequence, 000);
+            setTimeout(nextSequence, 1000);
         }
         else{
             count+=1;
