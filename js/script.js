@@ -57,7 +57,7 @@ function tracker(){
         if(count==gamePattern.length-1){
             count=0;
             userPattern=[];
-            setTimeout(nextSequence, 1000);
+            setTimeout(nextSequence, 000);
         }
         else{
             count+=1;
@@ -71,7 +71,7 @@ function tracker(){
         },300);
         document.querySelector("h1").innerHTML = "Wrong Pattern! Press Any Key to Try Again.";
         level = 0;
-        playintro();
+        setTimeout(playintro,2000);
     }
 }
 
@@ -102,7 +102,7 @@ document.addEventListener("keypress", function(){
         level = 0;
         userPattern = [];
         gamePattern = [];
-        setTimeout(nextSequence(), 500);
+        setTimeout(nextSequence, 500);
     }
 });
 
